@@ -1,5 +1,5 @@
-# SOURCE BY : Younis john
-# GitHub : https://github.com/YounisXyz
+# SOURCE BY : RAM DON
+# GitHub : https://github.com/RK-BRAND
 # Facebook : https://www.facebook.com/xyzhackers
 from os import path
 from urllib.request import urlopen
@@ -14,7 +14,7 @@ try:
 except ModuleNotFoundError:
         print('\n Installing missing modules ...')
         os.system('pip install requests futures==2 > /dev/null')
-        os.system('python Ishmum.py')
+        os.system('python rk.py')
 except:pass
 try:
     import httplib2
